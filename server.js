@@ -3,6 +3,8 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
 const PORT = 3000;
 
 const app = express();
@@ -19,6 +21,8 @@ mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
+
+mongoose.connect(MONGODB_URI);
 
 // routes
 app.use(require("./routes/api.js"));

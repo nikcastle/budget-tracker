@@ -1,6 +1,15 @@
 body {
+  background-color: #F0F8FF;
   font-size: 120%;
   font-family: Arial;
+}
+
+nav {
+  background-color: #C4E0FC;
+  font-size: xx-large;
+  padding: 10px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 button, input {
@@ -33,7 +42,7 @@ tr:nth-child(even) {
 }
 
 .total {
-  font-size: 150%;
+  font-size: 25px;
   text-decoration: underline;
 }
 

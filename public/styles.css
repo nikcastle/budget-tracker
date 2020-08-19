@@ -1,11 +1,15 @@
 body {
-  background-color: #F0F8FF;
+  background-image: url(./images/wallet.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   font-size: 120%;
-  font-family: Arial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav {
-  background-color: #C4E0FC;
+  background-color: #e86f6d;
+  color: white;
   font-size: xx-large;
   padding: 10px;
   margin-bottom: 40px;
@@ -13,18 +17,27 @@ nav {
 }
 
 button, input {
+  border-radius: 10px;
   font-size: 100%;
-  font-family: Arial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px;
 }
 
 table {
+  margin-top: 45px;
   width: 100%;
 }
 
 td, th {
   border: 1px solid #dddddd;
+  border-radius: 10px;
   text-align: left;
   padding: 8px;
+}
+
+th {
+  background-color: #F9FCFF;
+  text-align: center;
 }
 
 tr:nth-child(even) {
@@ -42,7 +55,10 @@ tr:nth-child(even) {
 }
 
 .total {
+  background-color: #6666ff;
+  border-radius: 10px;
   font-size: 25px;
+  opacity: 90%;
   text-decoration: underline;
 }
 
@@ -57,4 +73,24 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+#myChart {
+  background-color: rgba(249, 252, 255);
+  border-radius: 10px;
+  margin-top: 45px;
+  opacity: 70%;
+}
+
+#add-btn {
+  background-color: #dad9bb;
+  border: none;
+  cursor: pointer;
+  width: 170px;
+}
+
+#sub-btn {
+  background-color: #F8D4D1;
+  border: none;
+  cursor: pointer;
 }

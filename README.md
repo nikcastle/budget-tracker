@@ -14,7 +14,7 @@ A budget tracking app that will enable the user to add expenses and deposits to 
 No installation necessary
 
 ## Usage
-Begin by entering the name of your transaction in the firxt input box, ie: Rent, Paycheck, Electric Bill, etc. Next enter the amount in the second input box. To add these funds to your budget (for any income), click on the Add Funds button. To subtract this amount (any expenses, like rent or bills) click on the Subtract Funds button. 
+Begin by entering the name of your transaction in the first input box, ie: Rent, Paycheck, Electric Bill, etc. Next enter the amount in the second input box. To add these funds to your budget (for any income), click on the Add Funds button. To subtract this amount (any expenses, like rent or bills) click on the Subtract Funds button. 
 
 ## Credits
 The background photo was provided by [Unsplash.com](http://unsplash.com), from artist Katie Harp. 
